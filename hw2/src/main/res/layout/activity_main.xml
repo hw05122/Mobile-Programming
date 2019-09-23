@@ -24,7 +24,7 @@
                 android:text="First Page"
                 android:gravity="center"
                 android:id="@+id/textFrame1"
-                android:textSize="40dp" />
+                android:textSize="40sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -33,13 +33,13 @@
                 android:gravity="center"
                 android:visibility="invisible"
                 android:id="@+id/textFrame2"
-                android:textSize="40dp"/>
+                android:textSize="40sp"/>
 
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tableFrame"
-                android:visibility="invisible"
+                android:visibility="visible"
                 android:gravity="right">
 
                 <TableRow>
@@ -47,7 +47,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="URL:"
-                        android:textSize="20dp"/>
+                        android:textSize="20sp"/>
 
                     <EditText
                         android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="취소"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:background="#c3c8c9"
                         android:layout_marginHorizontal="10dp"/>
 
@@ -73,7 +73,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="확인"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:background="#c3c8c9"/>
                 </TableRow>
             </TableLayout>
@@ -90,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="First Page"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:id="@+id/btn1"
             android:onClick="onClick"
             android:layout_weight="1"
@@ -101,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Second Page"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:id="@+id/btn2"
             android:onClick="onClick"
             android:layout_weight="1"
@@ -111,7 +111,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Third Page"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:id="@+id/btn3"
             android:onClick="onClick"
             android:layout_weight="1"
@@ -120,3 +120,7 @@
 
     </LinearLayout>
 </LinearLayout>
+
+
+
+
