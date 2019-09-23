@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#e3e7e8">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,18 +22,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="First Page"
-                android:textSize="30dp"
                 android:gravity="center"
-                android:id="@+id/textFrame1"/>
+                android:id="@+id/textFrame1"
+                android:textSize="40dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Second Page"
-                android:textSize="30dp"
                 android:gravity="center"
                 android:visibility="invisible"
-                android:id="@+id/textFrame2"/>
+                android:id="@+id/textFrame2"
+                android:textSize="40dp"/>
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -45,7 +46,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="URL:"/>
+                        android:text="URL:"
+                        android:textSize="20dp"/>
 
                     <EditText
                         android:layout_width="wrap_content"
@@ -54,16 +56,25 @@
                 </TableRow>
 
                 <TableRow>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:visibility="invisible"/>
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="취소"
-                        android:layout_column="1"/>
+                        android:textSize="20dp"
+                        android:background="#c3c8c9"
+                        android:layout_marginHorizontal="10dp"/>
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="확인"/>
+                        android:text="확인"
+                        android:textSize="20dp"
+                        android:background="#c3c8c9"/>
                 </TableRow>
             </TableLayout>
         </FrameLayout>
@@ -79,25 +90,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="First Page"
+            android:textSize="15dp"
             android:id="@+id/btn1"
+            android:onClick="onClick"
             android:layout_weight="1"
-            android:onClick="onClick"/>
+            android:background="#c3c8c9"
+            android:layout_marginHorizontal="10dp"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Second Page"
+            android:textSize="15dp"
             android:id="@+id/btn2"
+            android:onClick="onClick"
             android:layout_weight="1"
-            android:onClick="onClick"/>
+            android:background="#c3c8c9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Third Page"
+            android:textSize="15dp"
             android:id="@+id/btn3"
+            android:onClick="onClick"
             android:layout_weight="1"
-            android:onClick="onClick"/>
+            android:background="#c3c8c9"
+            android:layout_marginHorizontal="10dp"/>
 
     </LinearLayout>
 </LinearLayout>
