@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/iv"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="새로운 메시지가 도착했습니다"
+        android:id="@+id/tvMsg"
+        android:layout_toRightOf="@id/iv"
+        android:textSize="15dp"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="어쩌구 저쩌구"
+         android:id="@+id/tvContent"
+         android:layout_toRightOf="@id/iv"
+         android:layout_below="@id/tvMsg"
+         android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="보기"
+        android:id="@+id/btnView"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정"
+        android:id="@+id/btnModi"
+        android:layout_alignLeft="@id/btnView"
+        android:layout_below="@id/btnView"/>
+
+</RelativeLayout>

@@ -1,2 +1,2 @@
-include ':app', ':0910', ':webConnect', ':0910-1', ':hw2', ':0917-1', ':0919-1', ':0917-2_calculator', ':0919-2', ':0919-2_relativelayout', ':0919-3', ':0919-4', ':0924-1'
+include ':app', ':0910', ':webConnect', ':0910-1', ':hw2', ':0917-1', ':0919-1', ':0917-2_calculator', ':0919-2', ':0919-2_relativelayout', ':0919-3', ':0919-4', ':0924-1', ':practice1'
 rootProject.name='Mobile-Programming'
