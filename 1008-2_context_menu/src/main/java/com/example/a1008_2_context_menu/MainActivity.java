@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btn1 = (Button)findViewById(R.id.btn1);
         btn2 = (Button)findViewById(R.id.btn2);
 
-        registerForContextMenu(btn1);//컨텍스트 메뉴를 사용할 뷰 등록
+        registerForContextMenu(btn1);//컨텍스트 메뉴를 사용할 뷰 등록.
         registerForContextMenu(btn2);//롱 클릭하면 컨텍스트 메뉴 켤려고 한다.
     }
 
