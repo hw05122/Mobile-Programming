@@ -1,2 +1,2 @@
-include ':app', ':0910', ':webConnect', ':0910-1', ':hw2', ':0917-1', ':0919-1', ':0917-2_calculator', ':0919-2', ':0919-2_relativelayout', ':0919-3', ':0919-4', ':0924-1', ':practice1', ':0924-2_inflation', ':0924-3_layout_params', ':1001-1_event', ':1008-1_option', ':1008-2_context_menu'
+include ':app', ':0910', ':webConnect', ':0910-1', ':hw2', ':0917-1', ':0919-1', ':0917-2_calculator', ':0919-2', ':0919-2_relativelayout', ':0919-3', ':0919-4', ':0924-1', ':practice1', ':0924-2_inflation', ':0924-3_layout_params', ':1001-1_event', ':1008-1_option', ':1008-2_context_menu', ':1008-buffertype', ':1015-1_adapterview', ':1015-2_adapterview2', ':1015-3_calendar_time', ':practice2'
 rootProject.name='Mobile-Programming'

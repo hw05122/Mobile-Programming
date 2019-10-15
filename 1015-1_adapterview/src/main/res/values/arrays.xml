@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="country">
+        <item>신라</item>
+        <item>조선</item>
+        <item>백제</item>
+        <item>고려</item>
+    </string-array>
+</resources>
