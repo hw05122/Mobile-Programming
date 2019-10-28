@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>//javascript
+            function vibrate(){
+                //javascript -> java method 호출
+                window.android.vibrate();
+            }
+
+            function fromApp(){
+                //java -> javascript 호출
+                alert('JavaScript Function Called');
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>WebBiew Test</h1>
+        <a href = "http://www.google.com">Go Google</a>
+        <br>
+        <button onclick="vibrate()">Vibrate</button>
+    </body>
+</html>
