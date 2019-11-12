@@ -26,7 +26,7 @@ public class CustomViewActivity extends ListActivity {
             User user = new User();
             user.name = "park" + i;
             user.phone = "010-" + i + "" + i + "" + i + "" + i;
-            list.add(user);
+            list.add(user);//Adyapter
         }
 
         MyAdapter myAdapter = new MyAdapter(this,R.layout.activity_custom_view,list);

@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn.setOnClickListener(this);
 
         wv = (WebView) findViewById(R.id.wv);
-        wv.setWebChromeClient(new MyWebChrom());
-        wv.setWebViewClient(new MyWebClient());
+        wv.setWebChromeClient(new MyWebChrom());//브라우저 자체 이벤트처리
+        wv.setWebViewClient(new MyWebClient());//웹 뷰에서 발생하는 유저 이벤트 처리하는 클래스
 
         //javascript에게 객체를 공개
         wv.addJavascriptInterface(new JavaScriptTest(), "android");
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
+    public boolean onKeyDown(int keyCode, KeyEvent event) {//웹 뷰 뒤로가기
         if(keyCode == KeyEvent.KEYCODE_BACK && wv.canGoBack()){
             wv.goBack();
             return true;
