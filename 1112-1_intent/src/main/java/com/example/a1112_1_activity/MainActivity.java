@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         if (v == btn) {
             //명시적 인텐트
-//            Intent intent = new Intent(this, SubActivity.class);
-//            intent.putExtra("data1", "young");
-//            intent.putExtra("data2", 100);
-//            startActivityForResult(intent, 10);
+            Intent intent = new Intent(this, SubActivity.class);
+            intent.putExtra("data1", "young");
+            intent.putExtra("data2", 100);
+            startActivityForResult(intent, 10);
 
             //암묵적 인텐트
 //            Intent intent = new Intent();
@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //            startActivity(intent);
 
             //암묵적 인텐트
-            Intent intent = new Intent();
-            intent.setAction(Intent.ACTION_GET_CONTENT);
-            intent.setType("image/*");
-            startActivity(intent);
+//            Intent intent = new Intent();
+//            intent.setAction(Intent.ACTION_GET_CONTENT);
+//            intent.setType("image/*");
+//            startActivity(intent);
         }
     }
 
